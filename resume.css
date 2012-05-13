@@ -1,16 +1,18 @@
 #header {
   float:none;
-  background-image:url(../../../../Pictures/16082009065.jpg);
-  background-color:#FFFFFF;
+  background-color: #FFFFFF;
+  background-image: url(images/header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   width:100%;
-  height: 1em;
-  /* display:block; */
+  height: 8em;
+  display:block;
 }
 
 #menu {
-
   width:25%;
   padding-top: 2em;
+  background-color: #DDDDDD;
 }
 
 .menuitems {
@@ -23,7 +25,8 @@
   font-family: sans-serif;
   width:75%;
   padding: 2em;
-  background-color: #;
+  background-color: #EEEEEE;
+  background-image: url(images/background.png);
 }
 
 #footer {
@@ -71,6 +74,12 @@ hr {
 
 .center {
   text-align:center;
+}
+
+.grid {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
 }
 
 .row {

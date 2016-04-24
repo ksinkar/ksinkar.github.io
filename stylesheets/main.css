@@ -6,9 +6,13 @@ img,object,embed{max-width:100%}
 html{overflow-y:scroll}
 ul{list-style:none}
 
-body{
+body {
     font-family: sans-serif;
-    /* background-image:url(../images/background.png); */
+    background-image:url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment:fixed;
     margin:0;
     overflow:hidden;
 }

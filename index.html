@@ -46,11 +46,16 @@
           integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
           crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/main.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="stylesheets/common.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="stylesheets/index.css">
     <link rel="shortcut icon" href="images/ksinkar2.png"> <!-- type="image/vnd.microsoft.icon" /> -->
+    <script src="scripts/main.js"></script>
     <title>ksinkar</title>
   </head>
   <body>
+      <script src="scripts/pre-paint.js"></script>
       <div class="container">
           <div class="row">
               <header  id="sutra" class="jumbotron">
@@ -61,42 +66,46 @@
           <div class="row">
               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                   <div class="khand">
-                      <h2><a link="professional_history">Professional History</a></h2>
+                      <h2><a href="pages/work/home.html">Work</a></h2>
                   </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                   <div class="khand">
-                      <h2><a link="volunteer_history">Volunteer History</a></h2>
+                      <h2><a href="pages/service/home.html">Service</a></h2>
                   </div>
               </div>
           </div>
           <div class="row">
               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                   <div class="khand">
-                      <h2><a link="formal_education">Formal Education</a></h2>
+                      <h2><a href="pages/academics/home.html">Academics</a></h2>
                   </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                   <div class="khand">
-                      <h2><a link="informal_education">Informal Education</a></h2>
+                      <h2><a href="pages/blog/home.html">Blogs</a></h2>
                   </div>
               </div>
           </div>
       </div>
-    <footer>
-      Copyright &copy 2012 Koustubh Sinkar 
-    </footer>
+      <footer class="footer">
+          <div class="container">
+              <span class="text-muted">
+                  Copyright &copy 2012 Koustubh Sinkar
+              </span>
+          </div>
+      </footer>
 
-    <!-- Jquery 2.2.3-->
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js"
-            integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
-	    crossorigin="anonymous"></script>
-    
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-            crossorigin="anonymous"></script>
-    
+      <!-- Jquery 2.2.3-->
+      <script src="https://code.jquery.com/jquery-2.2.3.min.js"
+              integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
+	      crossorigin="anonymous"></script>
+      
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+              integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+              crossorigin="anonymous"></script>
+      <script src="scripts/post-paint.js"></script>
   </body>
 </html>
 

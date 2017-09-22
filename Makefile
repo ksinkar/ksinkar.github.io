@@ -2,7 +2,7 @@ categories = work service skills projects academics blog strengths languages pas
 pages_dir = pages
 partials_dir = partials
 skeleton_files = skeleton/head.html skeleton/tail.html
-misc =  object_extraction vision_controlled_robotics cv
+misc =  object_extraction cv
 
 all: $(categories) $(misc)
 
@@ -14,9 +14,6 @@ $(categories): %: $(partials_dir)/%/home.html $(skeleton_files)
 	cat skeleton/head.html $< skeleton/tail.html > $(pages_dir)/$@/home.html
 
 object_extraction: $(partials_dir)/projects/object_extraction.html $(skeleton_files)
-	cat skeleton/head.html $< skeleton/tail.html > $(pages_dir)/projects/$@.html
-
-vision_controlled_robotics: $(partials_dir)/projects/vision_controlled_robotics.html $(skeleton_files)
 	cat skeleton/head.html $< skeleton/tail.html > $(pages_dir)/projects/$@.html
 
 cv: $(partials_dir)/resume/cv.html

@@ -1,44 +1,199 @@
-<h2 class="heading">Professional History</h2>
 <article>
-    <header>Software Engineer at MangoApps</header>
-    <section class="duration">
-        <time datetime="2013-09-01">01/08/2013</time> to
-        <time datetime="2015-02-01">01/02/2015</time>
-    </section>
-</article>
-<article>
-    <header>Lead Developer at Idyllic Software</header>
-    <section class="duration">
-        <time datetime="2012-08-01">01/08/2012</time>to
-        <time datetime="2013-07-15">15/07/2013</time>
-    </section>
-</article>
-<article>
-    <header>Software Engineer at Intellecap</header>
-    <section class="duration">
-        <time datetime="2011-03-02">02/03/2011</time> to
-        <time datetime="2012-07-15">15/07/2012</time>
-    </section>
-</article>
-<article>
-    <header>Embedded Systems Engineer at Megavision Embedded Systems</header> 
-    <section class="duration">
-        <time datetime="2010-07-01">01/07/2010</time> to
-        <time datetime="2011-02-27">27/02/2011</time>
+    <header>
+        <h2 class="heading">Experience</h2>
+    </header>
+    <section>
+        <aside>
+            <div class="employer">Globant India Pvt. Ltd.</div>
+            <div class="duration">
+                Since <time datetime="2016-08-17">17/08/2016</time>
+            </div>
+        </aside>
+        <details>
+            <summary>Senior Software Engineer</summary>
+            <p>General responsibilities included working with teams spread across timezones and communicating with people from different cultural contexts to get the job done. Keeping up with the cutting edge of technology in the web applications domain was a given and one was expected to use better (not necessarily newer) approaches to solving computational problems. 
+            </p>
+            <div>
+                <details>
+                    <summary>Client: <em>Sophos</em></summary>
+                    <ul>
+                        <li>Maintain a feed and conference engine with a REST API</li>
+                        <li>Refactoring badly written code and decoupling dependencies</li>
+                        <li>Wrote a service to consume APIs of APNS and GCM for sending Push Notifications</li>
+                        <li>Moved background Jobs to Resque</li>
+                    </ul>
+                </details>
+            </div>
+            <div>
+                <details>
+                    <summary>Client: <em>ImagineMath</em></summary>
+	            <ul>
+                        <li>Designing Data Extraction Strategies with ETL and Star schema</li>
+                        <li>Implemented realtime audio and chat with WebRTC</li>
+                        <li>Background Jobs with Sidekiq</li>
+                    </ul>
+                </details>
+            </div>
+        </details>
     </section>
     <section>
-        <h3><em>Megavision Embedded Systems</em>, Mumbai</h3>
-        <p class="job_description"></p>    
+        <aside>
+            <div class="employer">MangoApps India Pvt. Ltd.</div>
+            <div class="duration">
+                <time datetime="2013-09-01">01/08/2013</time> to
+                <time datetime="2015-02-01">01/02/2015</time>
+            </div>
+        </aside>
+        <details>
+            <summary>Software Engineer</summary>
+            <div>
+                <details>
+                    <summary>MangoApps</summary>
+                    <ul>
+                        <li>Implementation of SAML authentication</li>
+                        <li>Upgraded the login from OAuth to OAuth2 for the Google Apps marketplace</li>
+                        <li>Browser Security Review of MangoApps, which discovered CSRF and XSS vulnerabilities</li>
+                        <li>Migrated background jobs from DelayedJobs to Resque and Resque-Scheduler</li>
+                    </ul>
+                </details>
+            </div>
+            <div>
+                <details>
+                    <summary>OfficeChat</summary>
+                    <p>Did a <abbr title="Proof of Concept">POC</abbr> called Chatpad on Distributed realtime editing with Etherpad and NodeJS</p>
+                </details>
+            </div>
+        </details>
+    </section>
+    <section>
+        <aside>
+            <div class="employer">Idyllic Software Pvt. Ltd.</div>
+            <div class="duration">
+                <time datetime="2012-08-01">01/08/2012</time> to
+                <time datetime="2013-07-15">15/07/2013</time>
+            </div>
+        </aside>
+        <details>
+            <summary>Lead Developer</summary>
+            <p>General responsibilities included co-ordination with the client to decide on a set of deliverable objectives for a project. Led a team of developers, designers and testers to achieve those goals. Set in place a project-specific process that helped in maintaining a minimum consistency in the quality of the delivered product. This was a green-field project which also included migration of data from the client's legacy system to the new one that we were designing. </p>
+            <ul>
+                <li>Used Heroku for rapid deployment</li>
+                <li>Used <abbr title="Test Driven Development">TDD</abbr> from the beginning of the project</li>
+                <li>Used Apache Solr for Indexing</li>
+                <li>Used PostgreSQL as the database of our choice</li>
+            </ul>
+        </details>
+    </section>
+    <section>
+        <aside>
+            <div class="employer">Intellecap Software Technologies Pvt. Ltd.</div>
+            <div class="duration">
+                <time datetime="2011-03-02">02/03/2011</time> to
+                <time datetime="2012-07-15">15/07/2012</time>
+            </div>
+        </aside>
+        <details>
+            <summary>Software Engineer</summary>
+            <p>General responsibilities included developing and maintaining Mostfit (a web application written in Ruby on Merb). Understood the domain environment intricately about Microfinance as an industry. Responding to client questions about software and helping them use it correctly was also part of the job as this was a startup we did not have any customer support executives. 
+            </p>
+            <div>
+                <details>
+                    <summary>Mostfit</summary>
+                    <ul>
+                        <li>Generated various financial reports using SQL and non-SQL data extraction techniques</li>
+                        <li>Designing Loans Products and integrating them into Mostfit</li>
+                        <li>Integrated the data exchange functionality for Mostfit with the Highmark Credit Bureau</li>
+                    </ul>
+                </details>
+            </div>
+            <div>
+                <details>
+                    <summary>Molly</summary>
+                    <ul>
+                        <li>This was a greenfield project which I helped created from scratch</li>
+                        <li>Understood Double Entry Accounting practices and implemented it in the software</li>
+                        <li>Implemented cross verification of ledger entries across multiple Charts of Accounts</li>
+                    </ul>
+                </details>
+            </div>
+        </details>
+    </section>
+    <section>
+        <aside>
+            <div class="employer">Megavision Technologies Pvt. Ltd.</div>
+            <section class="duration">
+                <time datetime="2010-07-01">01/07/2010</time> to
+                <time datetime="2011-02-27">27/02/2011</time>
+            </section>
+        </aside>
+        <details>
+            <summary>Embedded Systems Engineer</summary>
+            <ul>
+                <li>Developed a proximity based security system using the nRF24LU1+ from scratch</li>
+                <li>Implemented the firmware using Embedded C and Keil</li>
+                <li>Co-designed the hardware using Protel</li>
+                <li>Worked on the SPI communication between an ARM processor (LPC2148) to store data into the memory card</li>
+            </ul>
+        </details>
+    </section>
+    <section>
+        <aside>
+            <div class="employer">Ambika Paints Pvt. Ltd.</div>
+            <div class="duration">
+                <time datetime="2007-07-26">26/07/2007</time> to
+                <time datetime="2007-08-31">31/08/2007</time>
+            </div>
+        </aside>
+        <details>
+            <summary>Intern</summary>
+            <p>This was essentially a Summer Internship through IEEE-TSEC Computer Society. Was a part of the team that created a static website for Ambika Paints using HTML and CSS</p>
+        </details>
     </section>
 </article>
 <article>
-    <header>Summer Intern</header>
-    <section class="duration">
-        <time datetime="2007-07-26">26/07/2007</time> to
-        <time datetime="2007-08-31">31/08/2007</time>
+    <header>
+        <h2>Lectures and Workshops</h2>
+    </header>
+    <section>
+        <aside>
+            <div class="organization">
+                <abbr title="Institute of Electrical and Electronics Engineers">IEEE</abbr>-
+                <abbr title="Thadomal Shahani Engineering College">TSEC</abbr>
+            </div>
+	    <div class="duration">10/09/09 to 11/09/09</div>
+        </aside>
+        <details>
+	    <summary>Linux workshop organized through IEEE-TSEC</summary>
+            <p>Conducted a hands on workshop to introduce undergraduate students to Linux. Explained basic Unix kernel and shell fundamentals while stressing on the need for automating your work instead of using point-and-click.
+            </p>
+        </details>
     </section>
     <section>
-        <h3><em>Ambika Paints Ltd.</em>, Mumbai</h3>
-        <p>Worked as a team member for designing a website for Ambika Paints Ltd. </p>
+        <aside>
+            <div class="organization">
+                <abbr title="Thadomal Shahani Engineering College">TSEC</abbr>
+                (Department of Electronics and Tele-communication)
+            </div>
+            <div class="duration">29/06/09 to 10/07/09</div>
+        </aside>
+        <details>
+	    <summary>Short Term Training Programme on Robotics</summary>
+            <p>Was part of the team that conducted a short term course on robotics which included workshops on image processing, micro-controller based motor control and interfacing of digital circuits to control A/C power supply.
+            </p>
+        </details>
+    </section>
+    <section>
+        <aside>
+            <div class="organization">
+                <abbr title="Institute of Electrical and Electronics Engineers">IEEE</abbr>-
+                <abbr title="Thadomal Shahani Engineering College">TSEC</abbr>
+            </div>
+            <div class="duration">24/02/08</div>
+        </aside>
+        <details>
+	    <summary>Basic Robotics Workshop</summary>
+            <p>Taught a group of second and third year students how to assemble a basic electric robot with DC motors, powersupply and two-way switches to control the car.
+            </p>
+        </details>
     </section>
 </article>

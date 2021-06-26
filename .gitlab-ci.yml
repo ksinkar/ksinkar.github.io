@@ -3,6 +3,8 @@ pages:
   script:
     - mkdir .public
     - make base-gitlabio
+    - make clean
+    - make all
     - cp -r * .public
     - mv .public public
   artifacts:

@@ -21,6 +21,7 @@ cv: $(partials_dir)/resume/cv.html
 
 base-gitlabio:
 	sed --in-place --expression='s_http://www.ksinkar.in_https://ksinkar.gitlab.io_' index.html
+	sed --in-place --expression='s_http://www.ksinkar.in_https://ksinkar.gitlab.io_' skeleton/head.html
 
 clean:
 	rm -rf pages skeleton/skeleton.html

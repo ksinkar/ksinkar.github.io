@@ -2,7 +2,7 @@ categories = work service skills projects academics blog strengths languages pas
 pages_dir = pages
 partials_dir = partials
 skeleton_files = skeleton/head.html skeleton/tail.html
-misc =  object_extraction cv
+misc =  object_extraction cv index
 
 all: $(categories) $(misc)
 
@@ -19,8 +19,11 @@ object_extraction: $(partials_dir)/projects/object_extraction.html $(skeleton_fi
 cv: $(partials_dir)/resume/cv.html
 	cp $< $(pages_dir)/resume/$@.html
 
+index: $(partials_dir)/index.html $(skeleton_files)
+	cat skeleton/head.html $< skeleton/tail.html > $(pages_dir)/$@.html
+	cp pages/index.html index.html
+
 base-gitlabio:
-	sed --in-place --expression='s_http://www.ksinkar.in_https://ksinkar.gitlab.io_' index.html
 	sed --in-place --expression='s_http://www.ksinkar.in_https://ksinkar.gitlab.io_' skeleton/head.html
 
 clean:

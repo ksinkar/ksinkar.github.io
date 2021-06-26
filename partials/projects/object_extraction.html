@@ -1,89 +1,88 @@
 <p>
-    Segmentation plays an important role in computer vision and is used when we need to automate a particular activity. 
-    Computer Vision is basically divided into two parts:- object extraction and image analysis. Different techniques
-    have been proposed to extract important features from aerial
-    images. These techniques either use region-based techniques or
-    edge-based methods. Unfortunately these techniques are not
-    suitable for the high resolution images now available as they
-    also provide us with superfluous details which are not useful
-    for image analysis. As a consequence of this situation, two new
-    detection techniques are used for the extraction of objects from
-    high resolution satellite imagery. Within this framework, the
-    project presented here focuses on edge-based region growing
-    and edge-based watershed.
+  Segmentation plays an important role in computer vision and is used when we need to automate a particular activity.
+  Computer Vision is basically divided into two parts:- object extraction and image analysis. Different techniques
+  have been proposed to extract important features from aerial
+  images. These techniques either use region-based techniques or
+  edge-based methods. Unfortunately these techniques are not
+  suitable for the high resolution images now available as they
+  also provide us with superfluous details which are not useful
+  for image analysis. As a consequence of this situation, two new
+  detection techniques are used for the extraction of objects from
+  high resolution satellite imagery. Within this framework, the
+  project presented here focuses on edge-based region growing
+  and edge-based watershed.
 </p>
 <table class="table">
-    <tr colspan="2">
-	<td>
-            <img src="http://lh6.ggpht.com/_IgtwgUS_nQU/TPhx1znmrzI/AAAAAAAAALI/4sGO23kqwk0/farmland1.jpg" alt="Input Image" />
-        </td></tr>
-    <tr>
-	<td>
-	    <table width ="50%" border="0" cellpadding="3" cellspacing="1">
-		<tr>
-		    <td align="center"><h2>Region growing using DIS maps</h2></td>
-		</tr>
-		<tr>
-		    <td align="center" width="50%">Gray Scale of the Original<br/>
-			<img src="http://lh6.ggpht.com/_IgtwgUS_nQU/TPhuOV-g0XI/AAAAAAAAAKk/q38uVI0T2M0/grayscale%20image-farmland1.jpg" width="100%" alt="Grayscale Image"/>
-		    </td>
-		</tr>
-		<tr>
-		    <td align="center" width="50%">DIS Map<br/>
-			<img src="http://lh3.ggpht.com/_IgtwgUS_nQU/TPhuOVXtOwI/AAAAAAAAAKg/wDVdkrPbUMM/dis%20map-farmland1.jpg"  width="100%" alt="DIS map"/>
-		    </td>
-		</tr>
-		<tr>
-		    <td align="center" width="50%">Seed Pixels<br/>
-			<img src="http://lh6.ggpht.com/_IgtwgUS_nQU/TPhuPJ4lyvI/AAAAAAAAAKs/LqAs9cn0qt8/seedpixels-farmland1.jpg" width="100%" alt="Seed Pixels"/>
-		    </td>
-		</tr>
-		<tr>
-		    <td align="center" width="50%">Mask Image<br/>
-			<img src="http://lh3.ggpht.com/_IgtwgUS_nQU/TPhuO2fbalI/AAAAAAAAAKo/-_Xe2La8tpI/mask%20image-farmland1.jpg" width="100%" alt="Mask Image"/>
-		    </td>
-		</tr>
-		<tr>
-		    <td align="center" width="50%">Final Segmented Image<br>
-			<img src="http://lh4.ggpht.com/_IgtwgUS_nQU/TPhuPCtTB-I/AAAAAAAAAKw/doBCnVgbkQY/segmentedimage-farmland1.jpg" width="100%" alt="Final Segmented Image" />
-		    </td>
-		</tr>
-	    </table>
-        </td>
+  <tr colspan="2">
+    <td>
+      <img src="http://lh6.ggpht.com/_IgtwgUS_nQU/TPhx1znmrzI/AAAAAAAAALI/4sGO23kqwk0/farmland1.jpg" alt="Input Image" />
+    </td></tr>
+  <tr>
+    <td>
+      <table width ="50%" border="0" cellpadding="3" cellspacing="1">
+	<tr>
+	  <td align="center"><h2>Region growing using DIS maps</h2></td>
+	</tr>
+	<tr>
+	  <td align="center" width="50%">Gray Scale of the Original<br/>
+	    <img src="http://lh6.ggpht.com/_IgtwgUS_nQU/TPhuOV-g0XI/AAAAAAAAAKk/q38uVI0T2M0/grayscale%20image-farmland1.jpg" width="100%" alt="Grayscale Image"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td align="center" width="50%">DIS Map<br/>
+	    <img src="http://lh3.ggpht.com/_IgtwgUS_nQU/TPhuOVXtOwI/AAAAAAAAAKg/wDVdkrPbUMM/dis%20map-farmland1.jpg"  width="100%" alt="DIS map"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td align="center" width="50%">Seed Pixels<br/>
+	    <img src="http://lh6.ggpht.com/_IgtwgUS_nQU/TPhuPJ4lyvI/AAAAAAAAAKs/LqAs9cn0qt8/seedpixels-farmland1.jpg" width="100%" alt="Seed Pixels"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td align="center" width="50%">Mask Image<br/>
+	    <img src="http://lh3.ggpht.com/_IgtwgUS_nQU/TPhuO2fbalI/AAAAAAAAAKo/-_Xe2La8tpI/mask%20image-farmland1.jpg" width="100%" alt="Mask Image"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td align="center" width="50%">Final Segmented Image<br>
+	    <img src="http://lh4.ggpht.com/_IgtwgUS_nQU/TPhuPCtTB-I/AAAAAAAAAKw/doBCnVgbkQY/segmentedimage-farmland1.jpg" width="100%" alt="Final Segmented Image" />
+	  </td>
+	</tr>
+      </table>
+    </td>
 
-        <td>
-	    <table width ="50%" border="0" cellpadding="3" cellspacing="1">	
-		<tr>
-		    <td align="center"><h2>Watershed segmentation using Edge markers</h2></td>
-		</tr>
-		<tr>
-		    <td align="center" width="50%">Mean Shift Filtering<br/>
-			<img src="http://lh5.ggpht.com/_IgtwgUS_nQU/TPhwHEaMYOI/AAAAAAAAAK4/IVVg9i-G1Us/colorlevel.jpg" width="100%" alt="Mean Shift Filtering"/>
-		    </td>
-		</tr>
-		<tr>
-		    <td align="center" width="50%">Grayscale<br/>
-			<img src="http://lh4.ggpht.com/_IgtwgUS_nQU/TPhwHSumZDI/AAAAAAAAAK8/6_mJZBCj1AY/s912/colorlevel_gray.jpg"  width="100%" alt="Grayscale"/>
-		    </td>
-		</tr>
-		<tr>
-		    <td align="center" width="50%">Canny Edge Detection<br>
-			<img src="http://lh5.ggpht.com/_IgtwgUS_nQU/TPhwHHRsNvI/AAAAAAAAAK0/PPPz1_7GkU0/s912/canny_edge.jpg" width="100%" alt="Canny Edge Detection"/>
-		    </td>
-		</tr>
-		<tr>
-		    <td align="center" width="50%">Watershed Segmentation using Edge Markers<br/>
-			<img src="http://lh5.ggpht.com/_IgtwgUS_nQU/TPhwHTKv-ZI/AAAAAAAAALA/nfA751t3owA/s912/watershed.jpg" width="100%" alt="Watershed Segmentation" />
-		    </td>
-		</tr>
-		<tr>
-		    <td align="center" width="50%">Final Segmented Image<br>
-			<img src="http://lh4.ggpht.com/_IgtwgUS_nQU/TPhwII2vC6I/AAAAAAAAALE/s5ilkYkmwXs/s912/watershed_superimposed.jpg" width="100%" alt="Final Segmented Image"/>
-		    </td>
-		</tr>
-	    </table>
-        </td>
+    <td>
+      <table width ="50%" border="0" cellpadding="3" cellspacing="1">
+	<tr>
+	  <td align="center"><h2>Watershed segmentation using Edge markers</h2></td>
+	</tr>
+	<tr>
+	  <td align="center" width="50%">Mean Shift Filtering<br/>
+	    <img src="http://lh5.ggpht.com/_IgtwgUS_nQU/TPhwHEaMYOI/AAAAAAAAAK4/IVVg9i-G1Us/colorlevel.jpg" width="100%" alt="Mean Shift Filtering"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td align="center" width="50%">Grayscale<br/>
+	    <img src="http://lh4.ggpht.com/_IgtwgUS_nQU/TPhwHSumZDI/AAAAAAAAAK8/6_mJZBCj1AY/s912/colorlevel_gray.jpg"  width="100%" alt="Grayscale"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td align="center" width="50%">Canny Edge Detection<br>
+	    <img src="http://lh5.ggpht.com/_IgtwgUS_nQU/TPhwHHRsNvI/AAAAAAAAAK0/PPPz1_7GkU0/s912/canny_edge.jpg" width="100%" alt="Canny Edge Detection"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td align="center" width="50%">Watershed Segmentation using Edge Markers<br/>
+	    <img src="http://lh5.ggpht.com/_IgtwgUS_nQU/TPhwHTKv-ZI/AAAAAAAAALA/nfA751t3owA/s912/watershed.jpg" width="100%" alt="Watershed Segmentation" />
+	  </td>
+	</tr>
+	<tr>
+	  <td align="center" width="50%">Final Segmented Image<br>
+	    <img src="http://lh4.ggpht.com/_IgtwgUS_nQU/TPhwII2vC6I/AAAAAAAAALE/s5ilkYkmwXs/s912/watershed_superimposed.jpg" width="100%" alt="Final Segmented Image"/>
+	  </td>
+	</tr>
+      </table>
+    </td>
 
-    </tr>
+  </tr>
 </table>
-

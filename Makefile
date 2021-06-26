@@ -19,5 +19,8 @@ object_extraction: $(partials_dir)/projects/object_extraction.html $(skeleton_fi
 cv: $(partials_dir)/resume/cv.html
 	cp $< $(pages_dir)/resume/$@.html
 
+base-gitlabio:
+	sed --in-place --expression='s_http://www.ksinkar.in_https://ksinkar.gitlab.io_' index.html
+
 clean:
 	rm -rf pages skeleton/skeleton.html

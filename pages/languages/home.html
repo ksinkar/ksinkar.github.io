@@ -29,19 +29,20 @@
     <meta name="revisit-after" content="15 days"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=yes" />
     <meta name="title" content="Koustubh Sinkar" />
-    
+
     <meta property="og:title" content="Koustubh Sinkar"/>
     <meta property="og:url" content="http://www.ksinkar.in"/>
     <meta property="og:image" content=""/>
     <meta property="og:locale" content="en_US" />
     <meta property="og:description" content="Koustubh Sinkar"/>
-    
+
     <!-- Latest compiled and minified Bootstrap CSS -->
+    <!-- CSS only -->
     <link rel="stylesheet" type="text/css"
-	  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
-	  integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
-          crossorigin="anonymous">
-    
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous"/>
+
     <link rel="stylesheet" type="text/css"
           href="stylesheets/common.css">
 
@@ -49,7 +50,7 @@
 
     <title>ksinkar</title>
   </head>
-  <body>
+  <body class="d-flex flex-column h-100">
     <header class="header">
       <figure >
         <a href="index.html">
@@ -58,9 +59,10 @@
         </a>
       </figure>
     </header>
-    <div class="container">
-      <div class="row">
-        <main class="col-xs-12 col-sm-12 col-md-9 col-lg-9" id="pjax-container">
+    <main class="flex-shrink-0">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9" id="pjax-container">
 <noscript data-title="languages"></noscript>
 <article>
   <header>
@@ -138,60 +140,52 @@
     </tbody>
   </table>
 </article>
-        </main>
-        <nav id="menu" class="nav col-xs-12 col-sm-12 col-md-3 col-lg-3 sidebar">
-          <div id="hamburger-navigation">
-            <ul role="menu" class="nav nav-pills flex-column">
-              <li class="nav-item khand">
-                <a xajp href="pages/work/home.html">Work</a>
-              </li>
-              <li class="nav-item khand">
-                <a xajp href="pages/projects/home.html">Projects</a>
-              </li>
-              <li class="nav-item khand">
-                <a xajp href="pages/skills/home.html">Skills</a>
-              </li>
-              <li class="nav-item khand">
-                <a xajp href="pages/academics/home.html">Academics</a>
-              </li>
-              <li class="nav-item khand">
-                <a xajp href="pages/service/home.html">Service</a>
-              </li>
-              <li class="nav-item khand">
-                <a xajp href="pages/blog/home.html">Blog</a>
-              </li>
-              <li class="nav-item khand">
-                <a xajp href="pages/strengths/home.html">Strengths</a>
-              </li>
-              <li class="nav-item khand">
-                <a xajp href="pages/languages/home.html">Languages</a>
-              </li>
-              <li class="nav-item khand">
-                <a xajp href="pages/pastimes/home.html">Pastime</a>
-              </li>
-              <li class="nav-item khand">
-                <a xajp href="pages/resume/home.html">Resume</a>
-              </li>
-            </ul>
           </div>
-        </nav>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 sidebar">
+            <nav id="menu" class="nav">
+              <ul role="menu" class="nav nav-pills flex-column">
+                <li class="nav-item khand">
+                  <a xajp href="pages/work/home.html">Work</a>
+                </li>
+                <li class="nav-item khand">
+                  <a xajp href="pages/projects/home.html">Projects</a>
+                </li>
+                <li class="nav-item khand">
+                  <a xajp href="pages/skills/home.html">Skills</a>
+                </li>
+                <li class="nav-item khand">
+                  <a xajp href="pages/academics/home.html">Academics</a>
+                </li>
+                <li class="nav-item khand">
+                  <a xajp href="pages/service/home.html">Service</a>
+                </li>
+                <li class="nav-item khand">
+                  <a xajp href="pages/blog/home.html">Blog</a>
+                </li>
+                <li class="nav-item khand">
+                  <a xajp href="pages/strengths/home.html">Strengths</a>
+                </li>
+                <li class="nav-item khand">
+                  <a xajp href="pages/languages/home.html">Languages</a>
+                </li>
+                <li class="nav-item khand">
+                  <a xajp href="pages/pastimes/home.html">Pastime</a>
+                </li>
+                <li class="nav-item khand">
+                  <a xajp href="pages/resume/home.html">Resume</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
       </div>
-    </div>
+    </main>
     <footer class="footer">
       <div class="container">
-        <span class="text-muted">
-          Copyrights 2021 &copy; Koustubh Sinkar. All Rights Reserved.
+        <span class="text-muted small">
+          Copyright 2021 &copy; Koustubh Sinkar. All Rights Reserved.
         </span>
       </div>
     </footer>
-
-    <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js"
-            integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
-	    crossorigin="anonymous">
-    </script>
-    <!-- PJAX -->
-    <!-- <script src="vendor/jquery.pjax.js"></script>
-         <script src="scripts/post-paint.js"></script> -->
   </body>
 </html>

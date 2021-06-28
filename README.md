@@ -4,8 +4,42 @@ KOUSTUBH SINKAR
 Experience
 -----------
 ### Senior Software Engineer
+#### Hexad GmbH
+##### Since February 2018
+General responsibilities include working with multi-cultural teams
+while cutting through the bureacracy and red tape of a large
+organization to success within the Scaled Agile Framework (SAFe).
+
+###### WEVDBS
++ Incubated an Agile XP team as the Technical Anchor
++ Inculcated TDD practices within the team
++ Mentored junior programmers to take ownership
++ Designed and helped build a greenfield multi-tenant program with
+  µ-services architecture
+
+###### Elsa2Go
++ Replaced a legacy desktop dealer-facing application to a µ-services
+  arch(Springboot) and Hybrid/PWA (Ionic) continuously integrated
+  using Concourse
++ Consulted and paired with the client team to demonstrate XP
+  practices and TDD
+
+###### WEVCF
++ Transition the project from DiLab to CARIAD
++ Reduce the huge load of technical debt
++ Refactor the application to a 12 Factor-App
+
+###### MyStaff
++ Migrated µ-services application from Cloudfoundry to Kubernetes
++ Used docker-compose to setup the whole µ-services application on
+  programmer workstations
+
+###### WeMigrate
++ Migrated >1M records from disparate legacy systems to IdentityKit
+
+### Senior Software Engineer
 #### Globant India Pvt. Ltd. (Pune)
-##### Since August 2016
+##### August 2016 to January 2018
 General responsibilities included working with teams spread across
 timezones and communicating with people from different cultural
 contexts to get the job done. Keeping up with the cutting edge of
@@ -13,19 +47,19 @@ technology in the web applications domain was a given and one was
 expected to use better (not necessarily newer) approaches to solving
 computational problems.
 
-###### Client: Sophos
+###### Sophos
 + Maintain a feed and conference engine with a REST API
 + Refactoring badly written code and decoupling dependencies
 + Wrote a service to consume APIs of APNS and GCM for sending Push
   Notifications
 + Moved background Jobs to Resque
 
-###### Client: ImagineMath
+###### ImagineMath
 + Designing Data Extraction Strategies with ETL and Star schema
 + Implemented realtime audio and chat with WebRTC
 + Background Jobs with Sidekiq
 
-### Software Engineer, 
+### Software Engineer,
 #### MangoApps India Pvt. Ltd. (Pune)
 ##### August 2013 to February 2015
 General responsibilities included adding features to the main
@@ -98,29 +132,29 @@ customer support executives.
 
 #### Intern
 ##### *Intern*, Ambika Paints Pvt. Ltd., (Mumbai)
-###### July 2007 to August 2007 
-+ Summer Internship through IEEE-TSEC Computer Society 
+###### July 2007 to August 2007
++ Summer Internship through IEEE-TSEC Computer Society
 + Part of the team that created a static website for Ambika Paints
   using HTML and CSS
 
 Volunteer History
 -----------------
-### KPC Volunteer 
+### KPC Volunteer
 #### Rosen Herbs (Israel)
 ##### July 2015 to March 2016
 + Maintaining a Greenhouse
 + Learning controlled agriculture techniques
 + Acclimatizing with the local culture, learning about it
 
-### SAA 
-#### Toastmasters Club of Pune - East 
-##### Jul 2014 to Jun 2015 
+### SAA
+#### Toastmasters Club of Pune - East
+##### Jul 2014 to Jun 2015
 + Tend to club property
 + Co-ordinate meetings
 
 ### President
-#### Toastmasters Club of Pune - East 
-##### Jan 2014 to Jun 2014 
+#### Toastmasters Club of Pune - East
+##### Jan 2014 to Jun 2014
 + Preside over all the meetings of the club
 + Lead the club to financial viability
 + Chief Executive Officer of the Club
@@ -143,6 +177,6 @@ Volunteer History
 
 Education
 ---------
-#### Bachelor of Engineering (EXTC) 
+#### Bachelor of Engineering (EXTC)
 ##### University of Mumbai (Thadomal Shahani Engg. College)
 ###### June 2006 to May 2010

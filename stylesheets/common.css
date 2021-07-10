@@ -71,21 +71,8 @@ p.sutra:nth-child(odd) {
   display: none;
 }
 
-.skillgroup {
-  vertical-align: middle;
-  text-align: center;
-}
-
-#extc {
-  background-color: #f0ff00;
-}
-
-#computational-engg {
-  background-color: #515151f2;
-}
-
-#soft-skills {
-  background-color: #00fa9f;
+header > h3.heading {
+  display: flex;
 }
 
 body > header {

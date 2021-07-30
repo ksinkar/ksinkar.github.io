@@ -1,5 +1,35 @@
 @charset "utf-8";
 
+@font-face {
+  font-family: "Noto Sans";
+  src: local("NotoSansModi-Regular"),
+       url(../fonts/NotoSansModi-Regular.woff2);
+  unicode-range: U+11600—1165F;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: local("NotoSansBrahmi-Regular"),
+       url(../fonts/NotoSansBrahmi-Regular.woff2);
+  unicode-range: U+11000—1107F;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: local("NotoSansGujarati-Regular"),
+       url(../fonts/NotoSansGujarati-Regular.woff2);
+  font-weight: normal;
+  unicode-range: U+0A80—0AFF;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: local("NotoSansGujarati-Bold"),
+       url(../fonts/NotoSansGujarati-Bold.woff2);
+  font-weight: bold;
+  unicode-range: U+0A80—0AFF;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -8,7 +38,7 @@ html {
 }
 
 body {
-  background-image:url(../assets/bg.jpg);
+  background-image:url(../bg.jpg);
   background-position: center;
   background-size: 100%;
 

@@ -3,31 +3,31 @@
 @font-face {
   font-family: "Noto Sans";
   src: local("NotoSansModi-Regular"),
-       url(../fonts/NotoSansModi-Regular.woff2);
-  unicode-range: U+11600—1165F;
+       url("../fonts/NotoSansModi-Regular.woff2");
+  unicode-range: U+11600-1165F;
 }
 
 @font-face {
   font-family: "Noto Sans";
   src: local("NotoSansBrahmi-Regular"),
-       url(../fonts/NotoSansBrahmi-Regular.woff2);
-  unicode-range: U+11000—1107F;
+       url("../fonts/NotoSansBrahmi-Regular.woff2");
+  unicode-range: U+11000-1107F;
 }
 
 @font-face {
   font-family: "Noto Sans";
   src: local("NotoSansGujarati-Regular"),
-       url(../fonts/NotoSansGujarati-Regular.woff2);
+       url("../fonts/NotoSansGujarati-Regular.woff2");
   font-weight: normal;
-  unicode-range: U+0A80—0AFF;
+  unicode-range: U+0A80-0AFF;
 }
 
 @font-face {
   font-family: "Noto Sans";
   src: local("NotoSansGujarati-Bold"),
-       url(../fonts/NotoSansGujarati-Bold.woff2);
+       url("../fonts/NotoSansGujarati-Bold.woff2");
   font-weight: bold;
-  unicode-range: U+0A80—0AFF;
+  unicode-range: U+0A80-0AFF;
 }
 
 /* Sticky footer styles
@@ -160,7 +160,7 @@ main nav.nav {
 #title {
   color: #78675F;
   background-color: yellow;
-  font-weight:;
+  font-weight:bold;
 }
 
 hr {
@@ -176,5 +176,6 @@ hr {
 #address
 {
   text-align:justify;
-  font-style:"Arial";
+  font-style:inherit;
+  font-family:Arial;
 }

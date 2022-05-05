@@ -17,6 +17,11 @@ organization to success within the Scaled Agile Framework (SAFe).
 + Designed and helped build a greenfield multi-tenant program with
   µ-services architecture
 
+###### GPSAY
++ Setup an ETL workflow using AWS Glue to reduce report generation
+  time from more than 8 hours to less than 2 minutes
++ Fully managed Infrastructure as Code using AWS CDK
+
 ###### Elsa2Go
 + Replaced a legacy desktop dealer-facing application to a µ-services
   arch(Springboot) and Hybrid/PWA (Ionic) continuously integrated
